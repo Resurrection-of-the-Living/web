@@ -1,18 +1,15 @@
 {
-    "name": "chat-backend",
+    "name": "chat-app",
     "version": "1.0.0",
     "description": "Chat app backend",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon server.js"
-    },
-    "author": "",
+    "main": "index.js",
+    "author": "Az",
     "license": "ISC",
     "dependencies": {
-        "dotenv": "^16.3.1",
         "express": "^4.18.2",
-        "nodemon": "^2.0.22",
         "socket.io": "^4.7.1"
+    },
+    "scripts": {
+        "start": "node index.js"
     }
 }
